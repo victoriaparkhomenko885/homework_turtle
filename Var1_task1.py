@@ -3,16 +3,16 @@ import turtle
 
 
 def draw_consecutive_wall(lenght,high,wall):
-         wall.right(90)
-         wall.forward(high)
-         wall.back(high)
-         wall.left(90)
-         wall.back(lenght) 
+    wall.right(90)
+    wall.forward(high)
+    wall.back(high)
+    wall.left(90)
+    wall.back(lenght)
 
 
 def draw_square(side_square,high,witdh):
     wall = turtle.Turtle()
-    wall.speed(4)
+    wall.speed(10)
     counter_witdh= 0
     counter_high = 0
     Check_masonry = True # начало без полукирпичей 
@@ -119,6 +119,6 @@ def draw_square(side_square,high,witdh):
                 counter_high += 1
                 Check_masonry = True
                 break    
-        
 
-draw_square(130,10,20)
+
+draw_square(230,10,20)
