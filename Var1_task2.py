@@ -3,7 +3,7 @@
 import turtle
 import math
 
-const = 1.3
+FIXED = 1.3
 
 counter = 1
 
@@ -14,4 +14,4 @@ for i in range(12):
     for j in range(40):    
         spiral.right(math.log(300/3.14))
         spiral.forward(counter)
-    counter *= const
+    counter *= FIXED
