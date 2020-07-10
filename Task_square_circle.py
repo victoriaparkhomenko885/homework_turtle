@@ -18,7 +18,7 @@ def paint(space, color):
 
 colors = ['yellow', 'red', 'lime', 'red']
 for iter in range(4):
-    paint(100,colors[iter])
+    paint(100, colors[iter])
     brain.left(90)
 
 brain.up()

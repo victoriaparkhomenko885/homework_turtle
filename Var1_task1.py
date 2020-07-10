@@ -1,4 +1,4 @@
-# кирпичная стена
+﻿# кирпичная стена
 import turtle
 
 
@@ -39,7 +39,7 @@ def draw_square(side_square, high, witdh):
                         draw_consecutive_wall(witdh, high, wall)
                         counter_witdh += 1                        
                     else:
-                        draw_consecutive_wall(side_square - witdh * counter_witdh,high,wall)                        
+                        draw_consecutive_wall(side_square - witdh * counter_witdh, high, wall)                        
                         break
 
                 wall.right(90)
