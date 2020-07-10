@@ -1,5 +1,4 @@
 # logarithmic spiral
-
 import turtle
 import math
 
