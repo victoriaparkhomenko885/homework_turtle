@@ -14,3 +14,5 @@ for i in range(12):
         spiral.right(math.log(300/3.14))
         spiral.forward(counter)
     counter *= FIXED
+
+input()
