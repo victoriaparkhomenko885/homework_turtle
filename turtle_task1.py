@@ -16,8 +16,8 @@ def paint(space, color):
 
    brain.end_fill()
 
-colors = ['yellow','red','lime', 'red']
-for iter in range (4):
+colors = ['yellow', 'red', 'lime', 'red']
+for iter in range(4):
     paint(100,colors[iter])
     brain.left(90)
 
